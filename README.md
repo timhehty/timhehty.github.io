@@ -1,2 +1,2 @@
-# timstartpage
+# tim personal website
 

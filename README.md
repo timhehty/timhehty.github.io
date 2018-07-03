@@ -1,2 +1,2 @@
-# tim personal website
+# my personal website
 

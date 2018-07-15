@@ -47,16 +47,16 @@ var svgTrash   = "<svg style=\"width:24px;height:24px\" xmlns=\"http://www.w3.or
 // Also yes I could totally use a json object to represent the menus, but I didn't feel like reprogramming the whole script. Probably doing that next site, though.
 var linkMenu = [
   [svgTrash,                   "blue",                                        "-HEAD-"], // Watch
-  ["MasterAni",                "masterani.me",""],
-  ["Netflix",                  "netflix.com",""],
-  ["Spotify",                  "play.spotify.com",""],
-  ["QuizDB",                   "quizdb.org",""],
+  ["MasterAni",                "https://www.masterani.me/",""],
+  ["Netflix",                   "https://www.netflix.com/browse",""],
+  ["Spotify",                  "https://open.spotify.com/browse",""],
+  ["QuizDB",                   "https://www.quizdb.org/",""],
   
   [svgSocial,                  "green",                                       "-HEAD-"], // Media
-  ["YouTube",                  "youtube.com",""],
-  ["Facebook",                 "facebook.com",""],
-  ["Reddit",                   "reddit.com",""],
-  ["Instagram",                "instagram.com",""],
+  ["YouTube",                  "https://www.youtube.com/",""],
+  ["Facebook",                 "https://www.facebook.com/",""],
+  ["Twitter",                  "https://www.twitter.com/",""],
+  ["Instagram",                "https://instagram.com/",""],
   
   [svgClover,                  "cyan",                                        "-HEAD-"], // 4chan
   ["/fa/ Fashion",             "https://boards.4chan.org/fa/",""],
@@ -66,20 +66,20 @@ var linkMenu = [
   
   [svgCode,                    "red",                                         "-HEAD-"], // Code Stuff
   ["GitHub",                   "https://github.com/timyhe",""],
-  ["Medium",                   "medium.com",""],
-  ["Quora",                    "quora.com",""],
-  ["Stack Overflow",           "stackoverflow.com",""],
+  ["Medium",                   "https://medium.com",""],
+  ["Quora",                    "https://quora.com",""],
+  ["Stack Overflow",            "https://www.stackoverflow.com",""],
   
   [svgGamepad,                 "magenta",                                     "-HEAD-"], // Work
-  ["/r/hiphopheads",           "reddit.com/r/hiphopheads",""],
-  ["/r/soccer",                "reddit.com/r/soccer",""],
-  ["/r/unixporn",              "reddit.com/r/unixporn",""],
-  ["/r/uwaterloo",             "reddit.com/r/uwaterloo",""],
+  ["/r/hiphopheads",           "https://old.reddit.com/r/hiphopheads",""],
+  ["/r/soccer",                "https://old.reddit.com/r/soccer",""],
+  ["/r/unixporn",              "https://old.reddit.com/r/unixporn",""],
+  ["/r/uwaterloo",             "https://old.reddit.com/r/uwaterloo",""],
   
   [svgMore,                    "yellow",                                      "-HEAD-"], // Other
-  ["Gmail",                    "mail.google.com",""],
-  ["Maps",                     "maps.google.com",""],
-  ["Drive",                    "drive.google.com",""],
+  ["Gmail",                    "https://mail.google.com/mail/u/0/#inbox",""],
+  ["Maps",                     "https://www.google.com/maps",""],
+  ["Drive",                    "https://drive.google.com/drive/u/0/",""],
   ["Weather",                  "https://www.google.com/search?q=weather&ie=utf-8&oe=utf-8&client=firefox-b-ab",""],
 ];
 // DID I FORGET TO MENTION?! THE DEMO LINKS DO NOTHING!
